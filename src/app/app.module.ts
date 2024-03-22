@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { AsideComponent } from './aside/aside.component';
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent],
+  declarations: [AppComponent, DashboardComponent, AsideComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
