@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+::ng-deep {
+  mat-icon {
+    color: rgb(249 115 22 / var(--tw-text-opacity)) !important;
+  }
+  #name {
+    font-family: "Protest Strike", sans-serif;
+  }
+}
