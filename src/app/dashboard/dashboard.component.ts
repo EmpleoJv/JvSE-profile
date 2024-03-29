@@ -32,7 +32,7 @@ export class DashboardComponent {
                         this.typewriterEffect2();
                     }, 100); // Adjust the delay as needed
                 }
-            }, 100); // Adjust the interval to change typing speed
+            }, 120); // Adjust the interval to change typing speed
         }
     }
     typewriterEffect2(): void {
@@ -52,7 +52,7 @@ export class DashboardComponent {
                         this.typewriterEffect();
                     }, 100); // Adjust the delay as needed
                 }
-            }, 100); // Adjust the interval to change typing speed
+            }, 120); // Adjust the interval to change typing speed
         }
     }
 }
