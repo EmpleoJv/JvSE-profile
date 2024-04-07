@@ -3,22 +3,25 @@
         <app-aside></app-aside>
     </div>
     <div class="static flex-1 bg-gray-900 w-screen h-screen ml-0 sm:ml-52">
-        <div class="grid grid-cols-2 gap-8 m-36">
+        <div class="grid grid-cols-2 gap-8 m-36 place-items-center">
             <div class="mt-20">
-                <p class="hello text-white text-2xl">👋 Hello, My Name is</p>
-                <p id="name" class="text-white text-7xl">Jayvee</p>
-                <p class="hello text-white text-[20px]"></p>
-                <p class="hello text-white text-[20px]">
+                <p class="hello text-white text-3xl">👋 Hello, My Name is</p>
+                <p id="name" class="text-white text-9xl">Jayvee</p>
+                <p class="hello text-white text-3xl"></p>
+                <p class="hello text-white text-2xl">
                     I design and develop services for customers of all sizes,
                     specializing in creating stylish, modern websites, web
                     applications.
+                </p>
+                <p id="myElement" class="text-white text-2xl">
+                    Hello <span *ngFor="let char of message">{{ char }}</span>
                 </p>
             </div>
             <div>
                 <img
                     src="../../assets/images/avatars.png"
                     alt="avatar"
-                    class="h-auto w-[350px]"
+                    class="h-auto w-[450px]"
                 />
             </div>
         </div>
