@@ -1,0 +1,19 @@
+#myElement {
+    display: inline-block;
+    overflow: hidden; /* Ensure text doesn't overflow its container */
+}
+
+#myElement span {
+    display: inline-block;
+    opacity: 0; /* Initially hide each character */
+    animation: fadeIn 0.5s linear forwards; /* Use CSS animation to fade in each character */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
