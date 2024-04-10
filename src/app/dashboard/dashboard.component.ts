@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
     styleUrls: ['./dashboard.component.scss'],
 })
 export class DashboardComponent {
-    message: string = 'Im Jayvee Empleo';
-    message2: string = 'Im Armie Empleo';
+    message: string = 'FULL-STACK DEVELOPER     ';
+    message2: string = 'FREELANCER     ';
 
     constructor() {}
 
@@ -20,7 +20,7 @@ export class DashboardComponent {
         if (element) {
             const text = this.message;
             let i = 0;
-            element.innerHTML = 'Hello '; // Clear existing content
+            element.innerHTML = "I'M A "; // Clear existing content
             const typing = setInterval(() => {
                 if (i < text.length) {
                     element.innerHTML += text.charAt(i);
@@ -40,7 +40,7 @@ export class DashboardComponent {
         if (element) {
             const text = this.message2;
             let i = 0;
-            element.innerHTML = 'Hello '; // Clear existing content
+            element.innerHTML = "I'M A "; // Clear existing content
             const typing = setInterval(() => {
                 if (i < text.length) {
                     element.innerHTML += text.charAt(i);

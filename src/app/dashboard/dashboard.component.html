@@ -1,28 +1,55 @@
-<div class="flex bg-gray-900">
+<div class="flex">
     <div>
         <app-aside></app-aside>
     </div>
-    <div class="static flex-1 bg-gray-900 w-screen h-screen ml-0 sm:ml-52">
-        <div class="grid grid-cols-2 gap-8 m-36 place-items-center">
-            <div class="mt-20">
-                <p class="hello text-white text-3xl">👋 Hello, My Name is</p>
-                <p id="name" class="text-white text-9xl">Jayvee</p>
-                <p class="hello text-white text-3xl"></p>
-                <p class="hello text-white text-2xl">
-                    I design and develop services for customers of all sizes,
-                    specializing in creating stylish, modern websites, web
-                    applications.
-                </p>
-                <p id="myElement" class="text-white text-2xl">
-                    Hello <span *ngFor="let char of message">{{ char }}</span>
-                </p>
+    <div class="static w-screen h-screen ml-0 sm:ml-52">
+        <div class="mainDashboard h-full bg-gray-900">
+            <div class="grid grid-cols-2 gap-8 p-36 place-items-center">
+                <div class="mt-20">
+                    <p class="hello text-white text-3xl">
+                        👋 Hello, My Name is
+                    </p>
+                    <p id="name" class="text-white text-9xl">Jayvee</p>
+                    <p id="myElement" class="text-white text-2xl">
+                        Hello
+                        <span *ngFor="let char of message">{{ char }}</span>
+                    </p>
+                    <p class="hello text-white text-2xl">
+                        I design and develop services for customers of all
+                        sizes, specializing in creating stylish, modern
+                        websites, web applications.
+                    </p>
+                </div>
+                <div>
+                    <img
+                        src="../../assets/images/avatars.png"
+                        alt="avatar"
+                        class="h-auto w-[450px] rounded-[6rem]"
+                    />
+                </div>
             </div>
-            <div>
-                <img
-                    src="../../assets/images/avatars.png"
-                    alt="avatar"
-                    class="h-auto w-[450px]"
-                />
+        </div>
+        <div class="h-full bg-gray-900">
+            <div class="grid grid-cols-2 gap-8 place-items-center">
+                <div class="iconImages">
+                    <img
+                        src="../../assets/images/avatars.png"
+                        alt="avatar"
+                        class="h-auto w-[450px] rounded-[50rem] border-8 border-[#FF9900]"
+                    />
+                    <div class="absolute">
+                        <div class="images w-full flex justify-center">
+                            <img
+                                src="../../assets/images/icons8-fb-64.png"
+                                alt="fb-image"
+                            />
+                            <img
+                                src="../../assets/images/icons8-instagram-64.png"
+                                alt="insta-image"
+                            />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

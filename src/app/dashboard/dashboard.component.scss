@@ -17,3 +17,29 @@
         opacity: 1;
     }
 }
+
+.mainDashboard {
+    background-image: url("../../assets/images/top_right_circle_orange.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: right;
+    transition: 1s;
+}
+.mainDashboard:hover {
+    background-size: 105%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+::ng-deep {
+    mat-icon {
+        color: rgb(249 115 22 / var(--tw-text-opacity)) !important;
+    }
+}
+#name {
+    font-family: "Protest Strike", sans-serif;
+}
+.iconImages:before {
+}
+.images {
+    background-color: aliceblue;
+}
