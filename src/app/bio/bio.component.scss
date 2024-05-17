@@ -10,49 +10,38 @@
         width: 100%;
         justify-content: center;
         gap: 20px;
-
         a img {
             height: 2rem;
             width: 2rem;
             border-radius: 100%;
             padding: 5px;
             background-color: #ff9900;
+            transition: 0.2s;
         }
         a:nth-child(1) {
-            margin-top: -45px;
+            margin-top: -50px;
         }
         a:nth-child(2) {
-            margin-top: -28px;
+            margin-top: -33px;
         }
         a:nth-child(3) {
-            margin-top: -22px;
+            margin-top: -27px;
         }
         a:nth-child(4) {
-            margin-top: -28px;
+            margin-top: -33px;
         }
         a:last-child {
-            margin-top: -45px;
+            margin-top: -50px;
+        }
+        a img:hover {
+            height: 3rem;
+            width: 3rem;
         }
     }
     .biography {
         display: flex;
         justify-content: center;
         align-items: center;
-        div {
-            .biographyTitle {
-                background-image: url("../../assets/images/top_right_circle_orange.png");
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                display: inline-block;
-                width: auto;
-                padding: 8px;
-                border-radius: 10px;
-            }
-            .biographyTitle:hover {
-                background-size: 50%;
-            }
-        }
         .infoBio {
             ul {
                 width: 50%;

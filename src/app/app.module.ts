@@ -9,9 +9,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { AsideComponent } from './aside/aside.component';
 import { HomeComponent } from './home/home.component';
 import { BioComponent } from './bio/bio.component';
+import { WhatIDoComponent } from './what-i-do/what-i-do.component';
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent, AsideComponent, HomeComponent, BioComponent],
+  declarations: [AppComponent, DashboardComponent, AsideComponent, HomeComponent, BioComponent, WhatIDoComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
