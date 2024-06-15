@@ -1,0 +1,32 @@
+$secondary-color: #ff9900;
+:host ::ng-deep {
+  .example-card {
+    background-color: #1c254d;
+    width: 22rem;
+  }
+  .mat-mdc-progress-bar {
+    --mdc-linear-progress-active-indicator-color: #ff9900;
+    --mdc-linear-progress-track-color: $secondary-color;
+  }
+}
+.biographyTitle {
+  background: radial-gradient(circle, rgb(82, 60, 21), $secondary-color, white);
+  background-clip: text;
+  color: transparent;
+  animation: gemini 3s linear infinite;
+
+  background-size: 200% 200%;
+}
+@keyframes gemini {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}

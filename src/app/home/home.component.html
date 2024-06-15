@@ -1,24 +1,19 @@
-<div class="mainDashboard h-full bg-gray-900 px-32">
-    <div class="grid grid-cols-2 gap-8 p-36 place-items-center">
-        <div class="mt-20">
-            <p class="hello text-white text-3xl">👋 Hello, My Name is</p>
-            <p id="name" class="text-white text-9xl">Jayvee</p>
-            <p id="myElement" class="text-white text-2xl">
-                Hello
-                <span *ngFor="let char of message">{{ char }}</span>
-            </p>
-            <p class="hello text-white text-2xl">
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web
-                applications.
-            </p>
-        </div>
-        <div>
-            <img
-                src="../../assets/images/avatars.png"
-                alt="avatar"
-                class="h-auto w-[450px] rounded-[6rem]"
-            />
-        </div>
+<div class="mainDashboard h-full px-32">
+  <div class="grid grid-cols-2 gap-8 p-36 place-items-center">
+    <div class="mt-20">
+      <p class="hello text-white text-3xl">👋 Hello, My Name is</p>
+      <p id="name" class="text-white text-9xl">Jayvee</p>
+      <p id="myElement" class="text-white text-2xl">
+        Hello
+        <span *ngFor="let char of message">{{ char }}</span>
+      </p>
+      <p class="hello text-white text-2xl">
+        I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web
+        applications.
+      </p>
     </div>
+    <div>
+      <img src="../../assets/images/avatars.png" alt="avatar" class="h-auto w-[450px] rounded-[6rem]" />
+    </div>
+  </div>
 </div>

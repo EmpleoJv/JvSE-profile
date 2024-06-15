@@ -1,3 +1,4 @@
+$secondary-color: #ff9900;
 ::ng-deep {
     mat-icon {
         color: rgb(249 115 22 / var(--tw-text-opacity)) !important;
@@ -49,7 +50,7 @@
                 font-size: larger;
                 li span {
                     margin-left: 20px;
-                    color: #ff9900;
+                    color: $secondary-color;
                 }
             }
         }

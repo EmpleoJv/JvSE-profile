@@ -1,24 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
 .mainDashboard {
-    background-image: url("../../assets/images/top_right_circle_orange.png");
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position-x: right;
-    transition: 1s;
-    #name {
-        font-family: "Protest Strike", sans-serif;
-    }
-    #myElement {
-        display: inline-block;
-        overflow: hidden; /* Ensure text doesn't overflow its container */
-    }
+  #name {
+    font-family: "Protest Strike", sans-serif;
+  }
+  #myElement {
+    display: inline-block;
+    overflow: hidden; /* Ensure text doesn't overflow its container */
+  }
 
-    #myElement span {
-        display: inline-block;
-        opacity: 0; /* Initially hide each character */
-        animation: fadeIn 0.5s linear forwards; /* Use CSS animation to fade in each character */
-    }
+  #myElement span {
+    display: inline-block;
+    opacity: 0; /* Initially hide each character */
+    animation: fadeIn 0.5s linear forwards; /* Use CSS animation to fade in each character */
+  }
 }
 .mainDashboard:hover {
-    background-size: 105%;
+  background-size: 105%;
 }
